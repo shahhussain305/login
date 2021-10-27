@@ -1,0 +1,7 @@
+RewriteEngine on
+Options -Indexes
+
+RewriteRule ^([^/\.]+)/?$ index.php?cmd=$1 [NC,L]
+RewriteRule ^([^/\.]+)/?$ /?cmd=$1 [L]
+
+#RedirectMatch 301 ^/register /c_panel/users/register_new_case

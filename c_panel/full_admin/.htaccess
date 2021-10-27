@@ -1,0 +1,5 @@
+RewriteEngine on
+Options -Indexes
+
+RewriteRule ^([^/\.]+)/?$ index.php?cmd=$1 [NC,L]
+RewriteRule ^([^/\.]+)/?$ /?cmd=$1 [L]

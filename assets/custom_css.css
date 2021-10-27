@@ -1,0 +1,95 @@
+/*-----------Start Login-------*/
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    padding-top: 20px;
+    background: url("system_img/logo/log_1.png") no-repeat center;
+    background-color: #13b75c;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: inset 10px 10px 100px #FFFFFF;
+    background-size:contain;
+}
+
+.sidenav1 {
+    height: 300%;
+    padding-top: 20px;
+    background: url("system_img/logo/logo_icon.svg") no-repeat center;
+    background-color: #13b75c;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: inset 10px 10px 100px #FFFFFF;
+    background-size:contain;
+}
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 60%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+    text-shadow: 10px 10px 10px #ffffff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+/*----------End Login-----*/
+.logo{
+    width:200px;
+    height: 200px;
+    position: fixed;
+    z-index: 100;
+}
+.forgot_password{
+    font-size:12px;
+}

@@ -1,0 +1,64 @@
+body{
+    background:#d8def0;
+}
+.body-hight{
+    min-height: 450px !important;
+}
+.white-bg{
+    background: #ffffff;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer p{
+    padding-right:1rem;
+    color:#f3f4f7;
+}
+.spacer{
+    padding-right:10px;
+}
+.notifications::before{
+    content: " ";
+    font-size:13px;
+    padding-right:5px;
+}
+.details{
+    padding:10px;
+    text-decoration: overline;
+}
+.nav-bar{
+    padding:0px !important;
+    list-style-type: none;
+}
+fieldset {
+    background-color: #eeeeee;
+    margin-bottom:5px;
+    padding:5px;
+    border:1px solid gray;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    width:auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size:120%;
+  }
+input, select, textarea {
+    margin: 3px;
+}  
+.bg-small-box{
+    background: #e2eae5;
+}
+.small-box{
+    min-height: 8rem;
+}

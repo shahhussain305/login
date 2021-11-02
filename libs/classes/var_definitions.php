@@ -12,7 +12,7 @@ if(!defined("PTCL2")){
 	define("PTCL2","0946-xxxxxx");
 }
 if(!defined("TITLE")){
-	define("TITLE","Halim Law Chamber");
+	define("TITLE","ESDN - Login System");
 }
 if(!defined("MAIL_ADMIN")){
 	define("MAIL_ADMIN",'<br><hr><strong>System Administrator</strong><br>

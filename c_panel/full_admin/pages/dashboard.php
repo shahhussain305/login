@@ -10,30 +10,6 @@
 
         <div class="col-sm-4 col-md-4">
             <div class="card">
-                <div class="card-body">District Courts</div>
-                <div class="card-footer bg-success text-white">Click Here</div>
-            </div>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <div class="card">
-                <div class="card-body">Peshawar High Court</div>
-                <div class="card-footer bg-success text-white">Click Here</div>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4 col-md-4">
-            <div class="card">
-                <div class="card-body">Near Meetings</div>
-                <div class="card-footer bg-success text-white">Click Here</div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-md-4">
-            <div class="card">
                 <div class="card-body">Need Help?</div>
                 <div class="card-footer bg-success text-white">Click Here</div>
             </div>

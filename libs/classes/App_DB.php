@@ -25,7 +25,7 @@ class App_DB extends DB{
 	}
     
 
-    public function countriesCms(){
+    public function countriesCmb(){
         try {
             $country = $this->getRecordSetFilled("SELECT sno,lbl FROM countries WHERE is_active = 1");
             if(count($country) > 0){
